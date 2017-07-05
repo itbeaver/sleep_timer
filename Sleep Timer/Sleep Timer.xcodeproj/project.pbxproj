@@ -16,6 +16,14 @@
 		A42227821F0D8BA8009073BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42227801F0D8BA8009073BD /* LaunchScreen.storyboard */; };
 		A422278D1F0D8BA8009073BD /* Sleep_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A422278C1F0D8BA8009073BD /* Sleep_TimerTests.m */; };
 		A42227981F0D8BA8009073BD /* Sleep_TimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A42227971F0D8BA8009073BD /* Sleep_TimerUITests.m */; };
+		A42227AB1F0D9104009073BD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42227A91F0D9104009073BD /* Interface.storyboard */; };
+		A42227AD1F0D9104009073BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42227AC1F0D9104009073BD /* Assets.xcassets */; };
+		A42227B41F0D9104009073BD /* Sleep Timer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A42227B31F0D9104009073BD /* Sleep Timer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A42227BC1F0D9104009073BD /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42227BB1F0D9104009073BD /* InterfaceController.m */; };
+		A42227BF1F0D9104009073BD /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A42227BE1F0D9104009073BD /* ExtensionDelegate.m */; };
+		A42227C21F0D9104009073BD /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42227C11F0D9104009073BD /* NotificationController.m */; };
+		A42227C41F0D9104009073BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42227C31F0D9104009073BD /* Assets.xcassets */; };
+		A42227C81F0D9104009073BD /* Sleep Timer WatchKit.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A42227A71F0D9104009073BD /* Sleep Timer WatchKit.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +41,46 @@
 			remoteGlobalIDString = A422276B1F0D8BA8009073BD;
 			remoteInfo = "Sleep Timer";
 		};
+		A42227B51F0D9104009073BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42227641F0D8BA8009073BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A42227B21F0D9104009073BD;
+			remoteInfo = "Sleep Timer WatchKit Extension";
+		};
+		A42227C61F0D9104009073BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42227641F0D8BA8009073BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A42227A61F0D9104009073BD;
+			remoteInfo = "Sleep Timer WatchKit";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A42227CC1F0D9104009073BD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A42227B41F0D9104009073BD /* Sleep Timer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42227D01F0D9104009073BD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A42227C81F0D9104009073BD /* Sleep Timer WatchKit.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A422276C1F0D8BA8009073BD /* Sleep Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +101,20 @@
 		A42227931F0D8BA8009073BD /* Sleep TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sleep TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42227971F0D8BA8009073BD /* Sleep_TimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sleep_TimerUITests.m; sourceTree = "<group>"; };
 		A42227991F0D8BA8009073BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42227A71F0D9104009073BD /* Sleep Timer WatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep Timer WatchKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42227AA1F0D9104009073BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A42227AC1F0D9104009073BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A42227AE1F0D9104009073BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42227B31F0D9104009073BD /* Sleep Timer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sleep Timer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42227B91F0D9104009073BD /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A42227BA1F0D9104009073BD /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		A42227BB1F0D9104009073BD /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		A42227BD1F0D9104009073BD /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		A42227BE1F0D9104009073BD /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		A42227C01F0D9104009073BD /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		A42227C11F0D9104009073BD /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		A42227C31F0D9104009073BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A42227C51F0D9104009073BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +139,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A42227B01F0D9104009073BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,6 +155,8 @@
 				A422276E1F0D8BA8009073BD /* Sleep Timer */,
 				A422278B1F0D8BA8009073BD /* Sleep TimerTests */,
 				A42227961F0D8BA8009073BD /* Sleep TimerUITests */,
+				A42227A81F0D9104009073BD /* Sleep Timer WatchKit */,
+				A42227B71F0D9104009073BD /* Sleep Timer WatchKit Extension */,
 				A422276D1F0D8BA8009073BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +167,8 @@
 				A422276C1F0D8BA8009073BD /* Sleep Timer.app */,
 				A42227881F0D8BA8009073BD /* Sleep TimerTests.xctest */,
 				A42227931F0D8BA8009073BD /* Sleep TimerUITests.xctest */,
+				A42227A71F0D9104009073BD /* Sleep Timer WatchKit.app */,
+				A42227B31F0D9104009073BD /* Sleep Timer WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +217,40 @@
 			path = "Sleep TimerUITests";
 			sourceTree = "<group>";
 		};
+		A42227A81F0D9104009073BD /* Sleep Timer WatchKit */ = {
+			isa = PBXGroup;
+			children = (
+				A42227A91F0D9104009073BD /* Interface.storyboard */,
+				A42227AC1F0D9104009073BD /* Assets.xcassets */,
+				A42227AE1F0D9104009073BD /* Info.plist */,
+			);
+			path = "Sleep Timer WatchKit";
+			sourceTree = "<group>";
+		};
+		A42227B71F0D9104009073BD /* Sleep Timer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A42227BA1F0D9104009073BD /* InterfaceController.h */,
+				A42227BB1F0D9104009073BD /* InterfaceController.m */,
+				A42227BD1F0D9104009073BD /* ExtensionDelegate.h */,
+				A42227BE1F0D9104009073BD /* ExtensionDelegate.m */,
+				A42227C01F0D9104009073BD /* NotificationController.h */,
+				A42227C11F0D9104009073BD /* NotificationController.m */,
+				A42227C31F0D9104009073BD /* Assets.xcassets */,
+				A42227C51F0D9104009073BD /* Info.plist */,
+				A42227B81F0D9104009073BD /* Supporting Files */,
+			);
+			path = "Sleep Timer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A42227B81F0D9104009073BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A42227B91F0D9104009073BD /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,10 +261,12 @@
 				A42227681F0D8BA8009073BD /* Sources */,
 				A42227691F0D8BA8009073BD /* Frameworks */,
 				A422276A1F0D8BA8009073BD /* Resources */,
+				A42227D01F0D9104009073BD /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A42227C71F0D9104009073BD /* PBXTargetDependency */,
 			);
 			name = "Sleep Timer";
 			productName = "Sleep Timer";
@@ -201,6 +309,40 @@
 			productReference = A42227931F0D8BA8009073BD /* Sleep TimerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A42227A61F0D9104009073BD /* Sleep Timer WatchKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42227CD1F0D9104009073BD /* Build configuration list for PBXNativeTarget "Sleep Timer WatchKit" */;
+			buildPhases = (
+				A42227A51F0D9104009073BD /* Resources */,
+				A42227CC1F0D9104009073BD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A42227B61F0D9104009073BD /* PBXTargetDependency */,
+			);
+			name = "Sleep Timer WatchKit";
+			productName = "Sleep Timer WatchKit";
+			productReference = A42227A71F0D9104009073BD /* Sleep Timer WatchKit.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A42227B21F0D9104009073BD /* Sleep Timer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42227C91F0D9104009073BD /* Build configuration list for PBXNativeTarget "Sleep Timer WatchKit Extension" */;
+			buildPhases = (
+				A42227AF1F0D9104009073BD /* Sources */,
+				A42227B01F0D9104009073BD /* Frameworks */,
+				A42227B11F0D9104009073BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sleep Timer WatchKit Extension";
+			productName = "Sleep Timer WatchKit Extension";
+			productReference = A42227B31F0D9104009073BD /* Sleep Timer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,6 +369,16 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = A422276B1F0D8BA8009073BD;
 					};
+					A42227A61F0D9104009073BD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 48LAN7J5DS;
+						ProvisioningStyle = Automatic;
+					};
+					A42227B21F0D9104009073BD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 48LAN7J5DS;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = A42227671F0D8BA8009073BD /* Build configuration list for PBXProject "Sleep Timer" */;
@@ -245,6 +397,8 @@
 				A422276B1F0D8BA8009073BD /* Sleep Timer */,
 				A42227871F0D8BA8009073BD /* Sleep TimerTests */,
 				A42227921F0D8BA8009073BD /* Sleep TimerUITests */,
+				A42227A61F0D9104009073BD /* Sleep Timer WatchKit */,
+				A42227B21F0D9104009073BD /* Sleep Timer WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -271,6 +425,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42227A51F0D9104009073BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42227AD1F0D9104009073BD /* Assets.xcassets in Resources */,
+				A42227AB1F0D9104009073BD /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42227B11F0D9104009073BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42227C41F0D9104009073BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +475,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A42227AF1F0D9104009073BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42227BF1F0D9104009073BD /* ExtensionDelegate.m in Sources */,
+				A42227BC1F0D9104009073BD /* InterfaceController.m in Sources */,
+				A42227C21F0D9104009073BD /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -316,6 +497,16 @@
 			isa = PBXTargetDependency;
 			target = A422276B1F0D8BA8009073BD /* Sleep Timer */;
 			targetProxy = A42227941F0D8BA8009073BD /* PBXContainerItemProxy */;
+		};
+		A42227B61F0D9104009073BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A42227B21F0D9104009073BD /* Sleep Timer WatchKit Extension */;
+			targetProxy = A42227B51F0D9104009073BD /* PBXContainerItemProxy */;
+		};
+		A42227C71F0D9104009073BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A42227A61F0D9104009073BD /* Sleep Timer WatchKit */;
+			targetProxy = A42227C61F0D9104009073BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -334,6 +525,14 @@
 				A42227811F0D8BA8009073BD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A42227A91F0D9104009073BD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42227AA1F0D9104009073BD /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -505,6 +704,70 @@
 			};
 			name = Release;
 		};
+		A42227CA1F0D9104009073BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 48LAN7J5DS;
+				INFOPLIST_FILE = "Sleep Timer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itbeaver.sleeptimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		A42227CB1F0D9104009073BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 48LAN7J5DS;
+				INFOPLIST_FILE = "Sleep Timer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itbeaver.sleeptimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		A42227CE1F0D9104009073BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48LAN7J5DS;
+				IBSC_MODULE = Sleep_Timer_WatchKit_Extension;
+				INFOPLIST_FILE = "Sleep Timer WatchKit/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itbeaver.sleeptimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		A42227CF1F0D9104009073BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48LAN7J5DS;
+				IBSC_MODULE = Sleep_Timer_WatchKit_Extension;
+				INFOPLIST_FILE = "Sleep Timer WatchKit/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itbeaver.sleeptimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -538,6 +801,22 @@
 			buildConfigurations = (
 				A42227A31F0D8BA8009073BD /* Debug */,
 				A42227A41F0D8BA8009073BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A42227C91F0D9104009073BD /* Build configuration list for PBXNativeTarget "Sleep Timer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42227CA1F0D9104009073BD /* Debug */,
+				A42227CB1F0D9104009073BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A42227CD1F0D9104009073BD /* Build configuration list for PBXNativeTarget "Sleep Timer WatchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42227CE1F0D9104009073BD /* Debug */,
+				A42227CF1F0D9104009073BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
