@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A42227711F0D8BA8009073BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A42227701F0D8BA8009073BD /* main.m */; };
+		A42227741F0D8BA8009073BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A42227731F0D8BA8009073BD /* AppDelegate.m */; };
+		A42227771F0D8BA8009073BD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42227761F0D8BA8009073BD /* FirstViewController.m */; };
+		A422277A1F0D8BA8009073BD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42227791F0D8BA8009073BD /* SecondViewController.m */; };
+		A422277D1F0D8BA8009073BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A422277B1F0D8BA8009073BD /* Main.storyboard */; };
+		A422277F1F0D8BA8009073BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A422277E1F0D8BA8009073BD /* Assets.xcassets */; };
+		A42227821F0D8BA8009073BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42227801F0D8BA8009073BD /* LaunchScreen.storyboard */; };
+		A422278D1F0D8BA8009073BD /* Sleep_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A422278C1F0D8BA8009073BD /* Sleep_TimerTests.m */; };
+		A42227981F0D8BA8009073BD /* Sleep_TimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A42227971F0D8BA8009073BD /* Sleep_TimerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A42227891F0D8BA8009073BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42227641F0D8BA8009073BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A422276B1F0D8BA8009073BD;
+			remoteInfo = "Sleep Timer";
+		};
+		A42227941F0D8BA8009073BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42227641F0D8BA8009073BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A422276B1F0D8BA8009073BD;
+			remoteInfo = "Sleep Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A422276C1F0D8BA8009073BD /* Sleep Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42227701F0D8BA8009073BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A42227721F0D8BA8009073BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A42227731F0D8BA8009073BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A42227751F0D8BA8009073BD /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A42227761F0D8BA8009073BD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A42227781F0D8BA8009073BD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A42227791F0D8BA8009073BD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A422277C1F0D8BA8009073BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A422277E1F0D8BA8009073BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A42227811F0D8BA8009073BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A42227831F0D8BA8009073BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42227881F0D8BA8009073BD /* Sleep TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sleep TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A422278C1F0D8BA8009073BD /* Sleep_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sleep_TimerTests.m; sourceTree = "<group>"; };
+		A422278E1F0D8BA8009073BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42227931F0D8BA8009073BD /* Sleep TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sleep TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42227971F0D8BA8009073BD /* Sleep_TimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sleep_TimerUITests.m; sourceTree = "<group>"; };
+		A42227991F0D8BA8009073BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A42227691F0D8BA8009073BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42227851F0D8BA8009073BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42227901F0D8BA8009073BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A42227631F0D8BA8009073BD = {
+			isa = PBXGroup;
+			children = (
+				A422276E1F0D8BA8009073BD /* Sleep Timer */,
+				A422278B1F0D8BA8009073BD /* Sleep TimerTests */,
+				A42227961F0D8BA8009073BD /* Sleep TimerUITests */,
+				A422276D1F0D8BA8009073BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A422276D1F0D8BA8009073BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A422276C1F0D8BA8009073BD /* Sleep Timer.app */,
+				A42227881F0D8BA8009073BD /* Sleep TimerTests.xctest */,
+				A42227931F0D8BA8009073BD /* Sleep TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A422276E1F0D8BA8009073BD /* Sleep Timer */ = {
+			isa = PBXGroup;
+			children = (
+				A42227721F0D8BA8009073BD /* AppDelegate.h */,
+				A42227731F0D8BA8009073BD /* AppDelegate.m */,
+				A42227751F0D8BA8009073BD /* FirstViewController.h */,
+				A42227761F0D8BA8009073BD /* FirstViewController.m */,
+				A42227781F0D8BA8009073BD /* SecondViewController.h */,
+				A42227791F0D8BA8009073BD /* SecondViewController.m */,
+				A422277B1F0D8BA8009073BD /* Main.storyboard */,
+				A422277E1F0D8BA8009073BD /* Assets.xcassets */,
+				A42227801F0D8BA8009073BD /* LaunchScreen.storyboard */,
+				A42227831F0D8BA8009073BD /* Info.plist */,
+				A422276F1F0D8BA8009073BD /* Supporting Files */,
+			);
+			path = "Sleep Timer";
+			sourceTree = "<group>";
+		};
+		A422276F1F0D8BA8009073BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A42227701F0D8BA8009073BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A422278B1F0D8BA8009073BD /* Sleep TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A422278C1F0D8BA8009073BD /* Sleep_TimerTests.m */,
+				A422278E1F0D8BA8009073BD /* Info.plist */,
+			);
+			path = "Sleep TimerTests";
+			sourceTree = "<group>";
+		};
+		A42227961F0D8BA8009073BD /* Sleep TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A42227971F0D8BA8009073BD /* Sleep_TimerUITests.m */,
+				A42227991F0D8BA8009073BD /* Info.plist */,
+			);
+			path = "Sleep TimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A422276B1F0D8BA8009073BD /* Sleep Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A422279C1F0D8BA8009073BD /* Build configuration list for PBXNativeTarget "Sleep Timer" */;
+			buildPhases = (
+				A42227681F0D8BA8009073BD /* Sources */,
+				A42227691F0D8BA8009073BD /* Frameworks */,
+				A422276A1F0D8BA8009073BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sleep Timer";
+			productName = "Sleep Timer";
+			productReference = A422276C1F0D8BA8009073BD /* Sleep Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A42227871F0D8BA8009073BD /* Sleep TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A422279F1F0D8BA8009073BD /* Build configuration list for PBXNativeTarget "Sleep TimerTests" */;
+			buildPhases = (
+				A42227841F0D8BA8009073BD /* Sources */,
+				A42227851F0D8BA8009073BD /* Frameworks */,
+				A42227861F0D8BA8009073BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A422278A1F0D8BA8009073BD /* PBXTargetDependency */,
+			);
+			name = "Sleep TimerTests";
+			productName = "Sleep TimerTests";
+			productReference = A42227881F0D8BA8009073BD /* Sleep TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A42227921F0D8BA8009073BD /* Sleep TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42227A21F0D8BA8009073BD /* Build configuration list for PBXNativeTarget "Sleep TimerUITests" */;
+			buildPhases = (
+				A422278F1F0D8BA8009073BD /* Sources */,
+				A42227901F0D8BA8009073BD /* Frameworks */,
+				A42227911F0D8BA8009073BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A42227951F0D8BA8009073BD /* PBXTargetDependency */,
+			);
+			name = "Sleep TimerUITests";
+			productName = "Sleep TimerUITests";
+			productReference = A42227931F0D8BA8009073BD /* Sleep TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A42227641F0D8BA8009073BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Artem Russkikh";
+				TargetAttributes = {
+					A422276B1F0D8BA8009073BD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 48LAN7J5DS;
+						ProvisioningStyle = Automatic;
+					};
+					A42227871F0D8BA8009073BD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 48LAN7J5DS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A422276B1F0D8BA8009073BD;
+					};
+					A42227921F0D8BA8009073BD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 48LAN7J5DS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A422276B1F0D8BA8009073BD;
+					};
+				};
+			};
+			buildConfigurationList = A42227671F0D8BA8009073BD /* Build configuration list for PBXProject "Sleep Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A42227631F0D8BA8009073BD;
+			productRefGroup = A422276D1F0D8BA8009073BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A422276B1F0D8BA8009073BD /* Sleep Timer */,
+				A42227871F0D8BA8009073BD /* Sleep TimerTests */,
+				A42227921F0D8BA8009073BD /* Sleep TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A422276A1F0D8BA8009073BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42227821F0D8BA8009073BD /* LaunchScreen.storyboard in Resources */,
+				A422277F1F0D8BA8009073BD /* Assets.xcassets in Resources */,
+				A422277D1F0D8BA8009073BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42227861F0D8BA8009073BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42227911F0D8BA8009073BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A42227681F0D8BA8009073BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A422277A1F0D8BA8009073BD /* SecondViewController.m in Sources */,
+				A42227741F0D8BA8009073BD /* AppDelegate.m in Sources */,
+				A42227771F0D8BA8009073BD /* FirstViewController.m in Sources */,
+				A42227711F0D8BA8009073BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42227841F0D8BA8009073BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A422278D1F0D8BA8009073BD /* Sleep_TimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A422278F1F0D8BA8009073BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42227981F0D8BA8009073BD /* Sleep_TimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A422278A1F0D8BA8009073BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A422276B1F0D8BA8009073BD /* Sleep Timer */;
+			targetProxy = A42227891F0D8BA8009073BD /* PBXContainerItemProxy */;
+		};
+		A42227951F0D8BA8009073BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A422276B1F0D8BA8009073BD /* Sleep Timer */;
+			targetProxy = A42227941F0D8BA8009073BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A422277B1F0D8BA8009073BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A422277C1F0D8BA8009073BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A42227801F0D8BA8009073BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42227811F0D8BA8009073BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A422279A1F0D8BA8009073BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A422279B1F0D8BA8009073BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A422279D1F0D8BA8009073BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48LAN7J5DS;
+				INFOPLIST_FILE = "Sleep Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itbeaver.sleeptimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A422279E1F0D8BA8009073BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48LAN7J5DS;
+				INFOPLIST_FILE = "Sleep Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itbeaver.sleeptimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A42227A01F0D8BA8009073BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48LAN7J5DS;
+				INFOPLIST_FILE = "Sleep TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itbeaver.Sleep-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sleep Timer.app/Sleep Timer";
+			};
+			name = Debug;
+		};
+		A42227A11F0D8BA8009073BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48LAN7J5DS;
+				INFOPLIST_FILE = "Sleep TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itbeaver.Sleep-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sleep Timer.app/Sleep Timer";
+			};
+			name = Release;
+		};
+		A42227A31F0D8BA8009073BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 48LAN7J5DS;
+				INFOPLIST_FILE = "Sleep TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itbeaver.Sleep-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sleep Timer";
+			};
+			name = Debug;
+		};
+		A42227A41F0D8BA8009073BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 48LAN7J5DS;
+				INFOPLIST_FILE = "Sleep TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itbeaver.Sleep-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sleep Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A42227671F0D8BA8009073BD /* Build configuration list for PBXProject "Sleep Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A422279A1F0D8BA8009073BD /* Debug */,
+				A422279B1F0D8BA8009073BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A422279C1F0D8BA8009073BD /* Build configuration list for PBXNativeTarget "Sleep Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A422279D1F0D8BA8009073BD /* Debug */,
+				A422279E1F0D8BA8009073BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A422279F1F0D8BA8009073BD /* Build configuration list for PBXNativeTarget "Sleep TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42227A01F0D8BA8009073BD /* Debug */,
+				A42227A11F0D8BA8009073BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A42227A21F0D8BA8009073BD /* Build configuration list for PBXNativeTarget "Sleep TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42227A31F0D8BA8009073BD /* Debug */,
+				A42227A41F0D8BA8009073BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A42227641F0D8BA8009073BD /* Project object */;
+}
